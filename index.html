@@ -10,6 +10,27 @@
 <body>
     <section class="container">
         <h1>GIF Search</h1>
-    </section>
+    
+         Seach for Gif <input id="gif-name">
+        <button id="search">Add Gif</button>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        function getGiphy(gif) {
+
+var queryURL = "https://developers.giphy.com/" 
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    }).done(function(response) {
+
+    $("#search").click(function() {
+
+        var gif = $("#gif-name").val();
+        getGif(gif);
+}
+    <section> 
+
+
+    
 </body>
 </html>
