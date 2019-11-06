@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet"  href="assets/styles/style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="assets/scripts/javascript.js"></script>
-</head>
-<body>
-    <section class="container">
-        <h1>GIF Search</h1>
-    
-        <body>
-            <div class="col-md-12 jumbotron jumbotron-fluid">
-              <div id="title">Search for a Gif Here: </div>
-            </div>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12" id="giphy-search">
-                    <input id="giphy-name" placeholder="Type Here">
-                  <button id="search">Let's Go!</button>
-                </div>
-              </div>
-          
-              <div class="row">
-                <div class="col-md-12">
-                  <span id="giphys"></span>
-                </div>
-              </div>
-          
-            </div>
-    </section>
 
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Giphy API</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="giphy-header">Giphys</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="giphy-intro">
+                        Looking for a Gif? Search Here! <br />
+                        <input id="giphy-name" placeholder= "Type Here">
+                        <button id="search">Find Gifs</button>
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-12">
+                    <span id="giphy1"></span>
+                </div>
+            </div>
+         
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+    </body>
+
+</html>
