@@ -1,6 +1,8 @@
 #giphy-header{
     font-size: 4em;
     color: blue;
+    background-color: white;
+    text-align: center;
 
 
 }
@@ -8,4 +10,8 @@
 #giphy-intro{
     font-size: 2em;
     color: black;
+    background-color: grey;
 }
+body{
+    background-image: url("../images/giphynewimage.jpeg");
+ }
